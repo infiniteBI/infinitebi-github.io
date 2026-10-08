@@ -28,19 +28,7 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-.project{
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-}
 
-.project img{
-    width: 500px;
-}
-img{
-    float:left;
-    margin-right:20px;
-}
 
 body {
 	line-height: 1;
@@ -168,7 +156,7 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 300;
+		font-weight: 700;
 		color: #666;
 	}
 
