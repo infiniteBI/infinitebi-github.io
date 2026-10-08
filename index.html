@@ -19,7 +19,10 @@
 	#main > #about { padding: 1.5em 0 1.5em 0; }
 	#about .image.featured { margin: 0 auto 1em auto; }
 	#about p { margin: 0 auto; line-height: 1.5; }
-	
+		/* Readable text everywhere */
+	#main p, #main li { color: #222; }
+	#main h2, #main h3 { color: #111; }
+	#main strong, #main b { color: #000; }
 	/* Contact: compact */
 	#main > #contact { padding: 2em 0 1.5em 0; }
 	#contact header { margin: 0 0 1em 0; }
@@ -33,6 +36,8 @@
 	#about .image.featured { max-width: 1050px; margin: 0 auto 1.5em auto; }
 	#about .image.featured img { width: 100%; max-height: 300px; object-fit: cover; }
 	#about p { max-width: 1050px; margin: 0 auto; }
+	/* About: readable text */
+	#about p { color: #000; }
 
 	/* Featured projects */
 	.project { display: block; text-align: left; margin-bottom: 3em; padding-bottom: 2em; border-bottom: 1px solid rgba(128,128,128,0.25); }
@@ -108,8 +113,8 @@
 							</div>
 						</section>
 						<div>
-															<p><strong>Email:</strong> infinitebi@hotmail.com</p>
 							<ul class="icons">
+								<p><strong>Email:</strong> infinitebi@hotmail.com</p>
 								<li><a href="https://github.com/infiniteBI" class="icon brands fa-github"><span class="label">Github</span></a></li>
 								<li><a href="https://www.linkedin.com/in/jean-p-509661121/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 								<li><a href="https://www.youtube.com/@InfiniteBI" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
